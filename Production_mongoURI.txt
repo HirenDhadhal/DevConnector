@@ -1,1 +1,0 @@
-"mongoURI": "mongodb+srv://hiren123:hiren123@devconnecctor.e9bqa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
