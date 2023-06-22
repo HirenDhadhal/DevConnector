@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C/C++: cpp.exe build active file",
+      "command": "C:\\Users\\CodeBlocks\\MinGW\\bin\\cpp.exe",
+      "args": [
+        "-I",
+        "C:\\Users\\CodeBlocks\\MinGW\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++",
+        "-fdiagnostics-color=always",
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "compiler: C:\\Users\\CodeBlocks\\MinGW\\bin\\cpp.exe"
+    }
+  ]
+}
